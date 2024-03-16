@@ -1,0 +1,16 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1710563228
+icon.svg::CompressedTexture2D::5856539744348061480::1710496445::1710496453::1::::<><>::
+orange_character.gd::GDScript::-1::1710518108::0::1::::<>CharacterBody3D<>::
+orange_character.tscn::PackedScene::508326288322465182::1710518114::0::1::::<><>::res://orange_character.gd
+space_ball.tscn::PackedScene::6999120801326272135::1710518108::0::1::::<><>::uid://hiicbaq7s2mk::::res://orange_character.tscn
+::res://Models/::1710497898
+::res://Models/Blender/::1710500352
+blue_character.blend::PackedScene::3686993625179373974::1710497004::1710497314::1::::<><>::uid://dv7ap0atvtb7l::::res://Models/Blender Resources/blue_character.res
+orange_character.blend::PackedScene::3205464878410110821::1710497799::1710500352::1::::<><>::
+space_collosion.blend::PackedScene::4833430851887438818::1710497865::1710497944::1::::<><>::
+::res://Models/Blender Resources/::1710500459
+blue_character.res::ArrayMesh::8699315956492308247::1710497313::0::1::::<><>::
+orange_character.res::ArrayMesh::7912020132534976649::1710500267::0::1::::<><>::
+::res://Models/Collision Shape/::1710498904
+space_collosion.dae::PackedScene::806756273571860154::1710498076::1710498083::1::::<><>::

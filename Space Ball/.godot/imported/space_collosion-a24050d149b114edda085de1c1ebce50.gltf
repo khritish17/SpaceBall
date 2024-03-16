@@ -1,0 +1,117 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.36",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "space_craft_convcolonly"
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Circle",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 476267,
+            "max" : [
+                1.2021138668060303,
+                0.43710169196128845,
+                1.2021138668060303
+            ],
+            "min" : [
+                -1.2021138668060303,
+                -0.2148527204990387,
+                -1.2021138668060303
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 476267,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 476267,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 476267,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5125,
+            "count" : 720000,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 5715204,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 5715204,
+            "byteOffset" : 5715204,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7620272,
+            "byteOffset" : 11430408,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3810136,
+            "byteOffset" : 19050680,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2880000,
+            "byteOffset" : 22860816,
+            "target" : 34963
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 25740816,
+            "uri" : "space_collosion-a24050d149b114edda085de1c1ebce50.bin"
+        }
+    ]
+}

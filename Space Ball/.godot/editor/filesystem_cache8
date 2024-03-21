@@ -1,9 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1710686852
+::res://::1711014683
 icon.svg::CompressedTexture2D::5856539744348061480::1710496445::1710496453::1::::<><>::
-orange_character.gd::GDScript::-1::1710609305::0::1::::<>CharacterBody3D<>::
-orange_character.tscn::PackedScene::508326288322465182::1710609310::0::1::::<><>::res://orange_character.gd
-space_ball.tscn::PackedScene::6999120801326272135::1710609305::0::1::::<><>::uid://hiicbaq7s2mk::::res://orange_character.tscn
+orange_character.gd::GDScript::-1::1710754052::0::1::::<>CharacterBody3D<>::
+orange_character.tscn::PackedScene::508326288322465182::1710756207::0::1::::<><>::res://orange_character.gd<>res://orange_ship_camera.gd
+orange_ship_camera.gd::GDScript::-1::1710757764::0::1::::<>Camera3D<>::
+space_ball.tscn::PackedScene::6999120801326272135::1710755090::0::1::::<><>::uid://hiicbaq7s2mk::::res://orange_character.tscn
 ::res://Models/::1710497898
 ::res://Models/Blender/::1710500352
 blue_character.blend::PackedScene::3686993625179373974::1710497004::1710497314::1::::<><>::uid://dv7ap0atvtb7l::::res://Models/Blender Resources/blue_character.res

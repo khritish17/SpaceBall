@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://prqgrftl4whi"]
+
+[ext_resource type="ArrayMesh" uid="uid://djd3cw5qehn8s" path="res://Models/Blender Resources/ball.res" id="1_0ki71"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_jp0x2"]
+radius = 0.997315
+
+[node name="RigidBody3D" type="RigidBody3D"]
+collision_layer = 4
+collision_mask = 7
+mass = 0.01
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+shape = SubResource("SphereShape3D_jp0x2")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+mesh = ExtResource("1_0ki71")

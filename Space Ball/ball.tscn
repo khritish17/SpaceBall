@@ -1,14 +1,37 @@
-[gd_scene load_steps=3 format=3 uid="uid://prqgrftl4whi"]
+[gd_scene load_steps=4 format=3 uid="uid://prqgrftl4whi"]
 
 [ext_resource type="ArrayMesh" uid="uid://djd3cw5qehn8s" path="res://Models/Blender Resources/ball.res" id="1_0ki71"]
+
+[sub_resource type="GDScript" id="GDScript_7cmjc"]
+script/source = "extends RigidBody3D
+
+var target_node : NodePath = NodePath(\"..\")
+var ball
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	ball = get_node(target_node)
+	#print(ball.name)
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
+	#var file = FileAccess.open(\"res://ball_location.txt\", FileAccess.WRITE)
+	#var ball_position = ball.global_transform.origin
+	#var pos_string = str(ball_position.x)+\",\"+str(ball_position.y)+\",\"+str(ball_position.z)
+	##print(ball_position)
+	#file.store_string(pos_string)
+	pass
+"
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_jp0x2"]
 radius = 0.997315
 
-[node name="RigidBody3D" type="RigidBody3D"]
+[node name="ball" type="RigidBody3D"]
 collision_layer = 4
 collision_mask = 7
 mass = 0.01
+script = SubResource("GDScript_7cmjc")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)

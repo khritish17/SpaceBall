@@ -1,7 +1,7 @@
 extends CharacterBody3D
 
 var forward_speed = 0
-var max_forward_speed = 30
+var max_forward_speed = 60
 var target_forward_speed = 0
 
 

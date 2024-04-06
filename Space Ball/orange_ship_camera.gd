@@ -3,6 +3,7 @@ extends Camera3D
 var target_node : NodePath = NodePath("..")
 var offset = Vector3.ZERO
 var space_ship
+var ball
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -12,6 +13,9 @@ func _ready():
 	var spaceship_position = space_ship.global_position
 	var camera_position = global_position
 	offset = camera_position - spaceship_position
+	
+	ball = get_parent().get_parent().find_child("ball")
+	print(ball.name)
 	pass # Replace with function body.
 
 
@@ -22,5 +26,8 @@ func _process(delta):
 	var desired_position = ship_position  + space_ship.global_transform.basis.x * offset.x + space_ship.global_transform.basis.y * offset.y + space_ship.global_transform.basis.z * offset.z
 	var smooth_position = lerp(global_transform.origin, desired_position, 0.1)
 	global_transform.origin = smooth_position
-	look_at(ship_position)
+	
+	var ball_position = ball.global_transform.origin
+	#look_at(ship_position)
+	look_at(ball_position)
 	#print(rotations)

@@ -1,18 +1,21 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1711087045
-ball.tscn::PackedScene::1088910164537307526::1711042028::0::1::::<><>::uid://djd3cw5qehn8s::::res://Models/Blender Resources/ball.res
+::res://::1712390123
+arena.tscn::PackedScene::5379507322183407721::1711704459::0::1::::<><>::uid://cyxisqq6uainj::::res://Models/Blender Resources/arena.res
+ball.tscn::PackedScene::1088910164537307526::1711704459::0::1::::<><>::uid://djd3cw5qehn8s::::res://Models/Blender Resources/ball.res
 icon.svg::CompressedTexture2D::5856539744348061480::1710496445::1710496453::1::::<><>::
-orange_character.gd::GDScript::-1::1711042023::0::1::::<>CharacterBody3D<>::
-orange_character.tscn::PackedScene::508326288322465182::1711042028::0::1::::<><>::res://orange_character.gd<>res://orange_ship_camera.gd
-orange_ship_camera.gd::GDScript::-1::1711018266::0::1::::<>Camera3D<>::
-space_ball.tscn::PackedScene::6999120801326272135::1711042023::0::1::::<><>::uid://hiicbaq7s2mk::::res://orange_character.tscn<>uid://prqgrftl4whi::::res://ball.tscn
+orange_character.gd::GDScript::-1::1711387265::0::1::::<>CharacterBody3D<>::
+orange_character.tscn::PackedScene::508326288322465182::1711704459::0::1::::<><>::res://orange_character.gd<>res://orange_ship_camera.gd
+orange_ship_camera.gd::GDScript::-1::1711102668::0::1::::<>Camera3D<>::
+space_ball.tscn::PackedScene::6999120801326272135::1711704453::0::1::::<><>::uid://hiicbaq7s2mk::::res://orange_character.tscn<>uid://prqgrftl4whi::::res://ball.tscn
 ::res://Models/::1710497898
-::res://Models/Blender/::1711032638
+::res://Models/Blender/::1711704436
 ball.blend::PackedScene::8208916061618431477::1711021698::1711032638::1::::<><>::
 blue_character.blend::PackedScene::3686993625179373974::1710497004::1710497314::1::::<><>::uid://dv7ap0atvtb7l::::res://Models/Blender Resources/blue_character.res
+goal_post_blue.blend::PackedScene::5316797814015125928::1711386240::1711386313::1::::<><>::
 orange_character.blend::PackedScene::3205464878410110821::1710497799::1710500352::1::::<><>::
 space_collosion.blend::PackedScene::4833430851887438818::1710497865::1710497944::1::::<><>::
-::res://Models/Blender Resources/::1711032638
+::res://Models/Blender Resources/::1711704441
+arena.res::ArrayMesh::6505373049800481539::1711386312::0::1::::<><>::
 ball.res::ArrayMesh::7798859627059483808::1711032638::0::1::::<><>::
 blue_character.res::ArrayMesh::8699315956492308247::1710497313::0::1::::<><>::
 orange_character.res::ArrayMesh::7912020132534976649::1710500267::0::1::::<><>::

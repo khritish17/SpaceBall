@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://civ4x11w18j74"]
+
+[ext_resource type="ArrayMesh" uid="uid://cyxisqq6uainj" path="res://Models/Blender Resources/arena.res" id="1_f6lbr"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_bg3wq"]
+points = PackedVector3Array(1.25068, 2.33311, 21.779, -1.2594, -0.177536, -1.17936, 1.25068, -0.177536, -1.17936, 3.5916, 18.05, 1.39605, -3.5916, 18.0284, 19.1819, -3.5916, 18.0284, 1.41765, -3.5916, 0.266511, 19.1819, 3.5916, 18.05, 19.2036, 3.5916, 0.244914, 19.2036, 3.5916, 0.244914, 1.39605, -3.5916, 0.266511, 1.41765, -1.2594, -0.177536, 21.779, -1.2594, 2.33311, -1.17936, 1.25068, -0.177536, 21.779, -1.2594, 2.33311, 21.779, 1.25068, 2.33311, -1.17936)
+
+[node name="arena" type="RigidBody3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(5.30825, 0, 0, 0, 1.22087, 0, 0, 0, 2.81227, 0, 0, 0)
+mesh = ExtResource("1_f6lbr")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(5.30825, 0, 0, 0, 1.22087, 0, 0, 0, 2.81227, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_bg3wq")

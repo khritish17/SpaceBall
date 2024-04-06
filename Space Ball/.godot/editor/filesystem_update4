@@ -1,4 +1,7 @@
 res://space_ball.tscn
+res://orange_ship_camera.gd
 res://orange_character.tscn
 res://ball.tscn
-res://orange_character.gd
+res://arena.tscn
+res://ball.gd
+res://ball_location.txt

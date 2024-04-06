@@ -15,7 +15,6 @@ func _ready():
 	offset = camera_position - spaceship_position
 	
 	ball = get_parent().get_parent().find_child("ball")
-	print(ball.name)
 	pass # Replace with function body.
 
 
@@ -29,5 +28,9 @@ func _process(delta):
 	
 	var ball_position = ball.global_transform.origin
 	#look_at(ship_position)
-	look_at(ball_position)
+	#look_at(ball_position)
 	#print(rotations)
+	
+	#var blended_pos = ship_position.linear_interpolate(ball_position, 0.1)
+	var blended_pos = lerp(ship_position, ball_position, 0.1)
+	look_at(blended_pos)
